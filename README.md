@@ -4,11 +4,13 @@
 
 Docker image and helper scripts for Docker container with EOS and EOSIO.CDT.
 
-Deployed images are in https://hub.docker.com/r/justinjmoses/eosio-ci/
+Built via
 
-## Getting started
-1. Install Docker
-1. Pull down the latest CI image (`docker pull justinjmoses/eosio-ci`)
+```bash
+docker build --build-arg VCS_REF=`git rev-parse --short HEAD` -t justinjmoses/eosio-ci docker
+```
+
+Deployed images are in https://hub.docker.com/r/justinjmoses/eosio-ci/
 
 Usage example is here: https://github.com/justinjmoses/eos-token-ci-example/blob/master/.circleci/config.yml
 
