@@ -5,7 +5,7 @@ ARG VCS_REF
 LABEL author="Justin J. Moses <justinjmoses@gmail.com>" version=$version \
   description="This is a base image for CI tooling to test EOS smart contracts" \
   org.label-schema.vcs-ref=$VCS_REF \
-  org.label-schema.vcs-url="e.g. https://github.com/justinjmoses/eosio-ci"
+  org.label-schema.vcs-url="https://github.com/justinjmoses/eosio-ci"
 
 ARG version=1.4.4
 ARG version_suffix=-1
