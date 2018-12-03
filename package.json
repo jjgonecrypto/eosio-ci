@@ -1,0 +1,22 @@
+{
+  "name": "eosio-ci",
+  "version": "1.4.3",
+  "description": "Utility scripts for working with the EOSIO-CI docker image",
+  "files": [
+    "scripts/start-eos.sh",
+    "scripts/stop-eos.sh"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinjmoses/eosio-ci.git"
+  },
+  "author": "justin j moses <justinjmoses@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justinjmoses/eosio-ci/issues"
+  },
+  "homepage": "https://github.com/justinjmoses/eosio-ci#readme"
+}
